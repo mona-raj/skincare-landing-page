@@ -143,7 +143,7 @@ const Main = () => {
           <h2 className="text-4xl leading-[1.2em]">
             Answers to Your Skincare Questions, All in One Place.
           </h2>
-          <div>
+          <div className="flex flex-col justify-between gap-2">
             <Faq
               q="Are your products safe for sensitive skin?"
               a="Yes, our products are dermatologist-tested and formulated to be gentle on sensitive skin."
