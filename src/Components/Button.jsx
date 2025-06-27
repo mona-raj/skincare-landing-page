@@ -2,7 +2,8 @@ import React from "react";
 
 const Button = ({ text }) => {
   return (
-    <button className="border rounded-[100px] border-accent bg-primary text-accent pt-[8px] pb-[8px] pl-[16px] pr-[16px]">
+    <button className="border rounded-[100px] border-accent bg-primary text-accent
+    hover:bg-accent hover:text-primary pt-[8px] pb-[8px] pl-[16px] pr-[16px]">
       {text}
     </button>
   );
