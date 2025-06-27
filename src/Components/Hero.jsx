@@ -19,7 +19,7 @@ const Hero = () => {
           />
         </div>
         <div className="h-[75%] flex items-center justify-start gap-[16vw]">
-          <button className="rounded-[100px] bg-accent text-secondary pt-[8px] pb-[8px] pl-[16px] pr-[16px] mb-[15vh]">
+          <button className="rounded-[100px] border border-accent bg-accent text-secondary hover:bg-secondary hover:text-accent pt-[8px] pb-[8px] pl-[16px] pr-[16px] mb-[15vh]">
             Shop Now
           </button>
           <img
