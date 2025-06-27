@@ -14,7 +14,7 @@ const Hero = () => {
           </h1>
           <img
             className="scale-75"
-            src="..\src\assets\images\skin_care_beauty_cosmetic_packaging_design_agency_mumbai_delhi_bangalore_india 1.png"
+            src="./images/skin_care_beauty_cosmetic_packaging_design_agency_mumbai_delhi_bangalore_india 1.png"
             alt=""
           />
         </div>
@@ -24,15 +24,14 @@ const Hero = () => {
           </button>
           <img
             className="scale-70 z-1"
-            src="..\src\assets\images\ChatGPT Image Jun 15, 2025, 10_24_47 PM 2.png"
+            src="./images/ChatGPT Image Jun 15, 2025, 10_24_47 PM 2.png"
             alt=""
           />
         </div>
-    
       </div>
-        <h1 className="font-extrabold uppercase text-[16em] z-0 top-123 -left-4 absolute tracking-wider ">
-          skincare
-        </h1>
+      <h1 className="font-extrabold uppercase text-[16em] z-0 top-123 -left-4 absolute tracking-wider ">
+        skincare
+      </h1>
     </section>
   );
 };

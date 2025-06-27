@@ -8,10 +8,10 @@ const Header = () => {
       <h1 className="font-extrabold uppercase text-[1.875em] ">skincare</h1>
       <Navbar />
       <div className="flex items-center justify-between gap-2">
-        <ProfileBtn url="..\src\assets\svg\bag.svg" />
+        <ProfileBtn url="./svg/bag.svg" />
         <p className="font-normal tracking-[-5%]">Cart (1)</p>
-        <ProfileBtn url="..\src\assets\svg\heart.svg" />
-        <ProfileBtn url="..\src\assets\svg\person.svg" />
+        <ProfileBtn url="./svg/heart.svg" />
+        <ProfileBtn url="./svg/person.svg" />
       </div>
     </header>
   );

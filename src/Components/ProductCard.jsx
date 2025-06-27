@@ -11,7 +11,7 @@ const ProductCard = ({ imgUrl, text, price }) => {
         </div>
         <img
           className="rounded-[10px] bg-[#2D3B361A] inline-block p-4"
-          src="..\src\assets\svg\cart.svg"
+          src="./svg/cart.svg"
           alt=""
         ></img>
       </div>

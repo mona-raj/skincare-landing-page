@@ -50,8 +50,8 @@ const Main = () => {
         </div>
         <div className="flex flex-col justify-between gap-2">
           <TaggedImage
-            imgUrl="..\src\assets\images\ChatGPT Image Jun 15, 2025, 11_52_20 PM 1.png"
-            tagUrl="..\src\assets\svg\award.svg"
+            imgUrl="./images/ChatGPT Image Jun 15, 2025, 11_52_20 PM 1.png"
+            tagUrl="./svg/award.svg"
             text="Best Skin Care Product Award Winning"
           />
           <div className="flex justify-between">
@@ -74,17 +74,17 @@ const Main = () => {
         </div>
         <div className="flex justify-between gap-3">
           <ProductCard
-            imgUrl="..\src\assets\images\Mask group.png"
+            imgUrl="./images/Mask group.png"
             text="ALYA SKIN CLEANSER."
             price="FROM $29.99"
           />
           <ProductCard
-            imgUrl="..\src\assets\images\Mask group (1).png"
+            imgUrl="./images/Mask group (1).png"
             text="RITUAL OF SAKURA."
             price="FROM $27.99"
           />
           <ProductCard
-            imgUrl="..\src\assets\images\Mask group (2).png"
+            imgUrl="./images/Mask group (2).png"
             text="THE BODY LOTION."
             price="FROM $19.99"
           />
@@ -92,7 +92,7 @@ const Main = () => {
       </section>
 
       <section className="pt-[4.4vh] pb-[4.4vh] pl-[5vw] pr-[5vw] mt-[10vh] relative">
-        <img className="" src="..\src\assets\images\model.png" alt="" />
+        <img className="" src="./images/model.png" alt="" />
         <div className="flex flex-col items-center gap-7 max-w-[55%] absolute bottom-[12vh] left-[22vw]">
           <h2 className="text-5xl text-primary leading-[1.2em] text-center">
             Feel Beautiful Inside and Out with Every Product.
@@ -113,17 +113,17 @@ const Main = () => {
         </div>
         <div className="flex justify-between gap-3">
           <ProductCard
-            imgUrl="..\src\assets\images\Mask group.png"
+            imgUrl="./images/Mask group.png"
             text="ALYA SKIN CLEANSER."
             price="FROM $29.99"
           />
           <ProductCard
-            imgUrl="..\src\assets\images\Mask group (1).png"
+            imgUrl="./images/Mask group (1).png"
             text="RITUAL OF SAKURA."
             price="FROM $27.99"
           />
           <ProductCard
-            imgUrl="..\src\assets\images\Mask group (2).png"
+            imgUrl="./images/Mask group (2).png"
             text="THE BODY LOTION."
             price="FROM $19.99"
           />
@@ -132,11 +132,11 @@ const Main = () => {
 
       <section className="pt-[4.4vh] pb-[10vh] pl-[5vw] pr-[5vw] mt-[10vh] flex justify-between gap-35">
         <div>
-        <TaggedImage
-          imgUrl="..\src\assets\images\Mask group (3).png"
-          tagUrl="..\src\assets\svg\headphone.svg"
-          text="24/7 We’re Here to Help You"
-        />
+          <TaggedImage
+            imgUrl="./images/Mask group (3).png"
+            tagUrl="./svg/headphone.svg"
+            text="24/7 We're Here to Help You"
+          />
         </div>
         <div className="max-w-[35%] flex flex-col justify-between">
           <DotBtn text="Frequently Asked Question" />
